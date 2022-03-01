@@ -1,0 +1,71 @@
+Setting up git:
+   Adding user details:
+
+	git config --global user.name "my name"
+	git config --global user.email "my email"
+			OR
+	git config --global --edit
+  To check:
+	git config --global user.email 	//display the email that was saved
+
+Creating a Repo:
+  	git init 		// to initialize the folder i.e make it a repo
+	git status		//show all the changed files
+	
+Git staging area:
+	git add "file name" 	//add the file to the staging area, that is to be commited
+			//when commit is done only the files from staging area is commited.
+	git add . 	//add all the untracked files to the staging area
+	
+
+Git commit:
+	git commit -m "message of commit" 
+	git log		// to see all the previous commits/merges info etc.
+
+
+Git checkout:
+	git checkout <commit hash code/branch name> 	//to go to a perticular commit or perticular branch
+
+Git Branch:
+	git branch 	//show the list of all branches
+	git branch <branch name>	// to create a new branch
+	
+	git checkout -b <branch name> //create branch and also move to that branch
+
+Git merge:
+	int the parent branch:
+		git merge <branch name>		//merge two branches
+
+Git ignore:
+	1.create a file .gitignore
+	2.add all the files name that must be ignored i.e not added to git
+
+
+
+Pushing code to Github:
+	git remote -v	//show the details of origin
+	git remote add origin https://github.com/guru-raghavendra/LearnGit.git 	//add origin for remote
+	git branch -M main //to push
+	git push -u origin main // push all the changes inside it towards the origin 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
