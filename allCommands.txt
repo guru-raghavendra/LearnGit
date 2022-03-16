@@ -48,11 +48,7 @@ Pushing code to Github:
 	git branch -M main //to push
 	git push -u origin main // push all the changes inside it towards the origin 
 	
-
-
-
-
-
+	git push -u origin <branch name> //to push the local branch to remote.
 
 
 
